@@ -1,0 +1,3 @@
+JMH S 17 io.FileChannelJmh S 66 io.jmh_generated.FileChannelJmh_readFileWithRegularChannel_jmhTest S 26 readFileWithRegularChannel S 10 SampleTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
+JMH S 17 io.FileChannelJmh S 65 io.jmh_generated.FileChannelJmh_readFileWithDirectChannel_jmhTest S 25 readFileWithDirectChannel S 10 SampleTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
+JMH S 17 io.FileChannelJmh S 65 io.jmh_generated.FileChannelJmh_readFileWithRandomChannel_jmhTest S 25 readFileWithRandomChannel S 10 SampleTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
