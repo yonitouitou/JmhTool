@@ -744,6 +744,10 @@ public final class FileChannelJmh_readFileWithRegularChannel_jmhTest {
                 return val;
             }
             val = new FileChannelJmh_ReadState_jmhType();
+            Field f;
+            f = io.FileChannelJmh.ReadState.class.getDeclaredField("fileSize");
+            f.setAccessible(true);
+            f.set(val, Integer.valueOf(control.getParam("fileSize")));
             val.readyTrial = true;
             f_readstate1_G = val;
             } catch (Throwable t) {
