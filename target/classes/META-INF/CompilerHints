@@ -3,8 +3,6 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,io/FileChannelJmh$ReadState.setUp
-inline,io/FileChannelJmh$ReadState.tearDown
-inline,io/FileChannelJmh.readFileWithDirectChannel
-inline,io/FileChannelJmh.readFileWithRandomChannel
-inline,io/FileChannelJmh.readFileWithRegularChannel
+inline,datastructure/lmax/ArrayBlockingQueueState.setUp
+inline,datastructure/lmax/ArrayBlockingQueueState.tearDown
+inline,datastructure/lmax/RingBufferJmh.arrayBlockingQueue
